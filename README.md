@@ -6,11 +6,11 @@ Clone project:
 ```
 git clone git@github.com:vaznoe/selenide-spring-example.git
 ```
-Open the project directoryyou can use the following command:
+Open the project directory, you can use the following command:
 ```
 cd selenide-spring-example/
 ```
-Run test:
+From the project directory run test:
 ```
 ./mvnw clean site
 ```
