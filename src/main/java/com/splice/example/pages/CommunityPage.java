@@ -26,7 +26,7 @@ public class CommunityPage extends BasePage {
 
     @Override
     public CommunityPage openPage() {
-        open(property.getBaseUrl());
+        open(property.getBaseUrl() + "/explore/contests");
         return new CommunityPage();
     }
 
