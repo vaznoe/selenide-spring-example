@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Suite">
+    <test name="Regression" enabled="true" preserve-order="true">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.splice.example.tests.*"/>
+        </packages>
+    </test>
+</suite>
