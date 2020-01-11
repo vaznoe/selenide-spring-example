@@ -28,6 +28,12 @@ public class HomePage extends BasePage {
     }
 
     @Step("Select {textValue} from Header nav menu")
+    public PluginsPage openPluginsFromHeaderNavMenu(String textValue) {
+        $$(HEADER_NAV_BUTTONS).filterBy(Condition.text(textValue)).first().click();
+        return new PluginsPage();
+    }
+
+    @Step("Select {textValue} from Header nav menu")
     public CommunityPage openFromHeaderNavMenu(String textValue) {
         $$(HEADER_NAV_BUTTONS).filterBy(Condition.text(textValue)).first().click();
         return new CommunityPage();

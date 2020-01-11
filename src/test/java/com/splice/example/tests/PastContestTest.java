@@ -1,9 +1,13 @@
 package com.splice.example.tests;
 
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
 import org.apache.commons.lang3.RandomUtils;
 import org.testng.annotations.Test;
 
-public class PastContextTest extends BaseTest {
+@Epic("QA automation task")
+@Feature("Community | Sidebar | Contest: Past Context")
+public class PastContestTest extends BaseTest {
 
     @Test(groups = "regression")
     public void payMusicCardTest()  {

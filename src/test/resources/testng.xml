@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Regression Suite">
-    <test name="Regression" enabled="true" preserve-order="true">
+    <test name="Regression Test" enabled="true" preserve-order="true">
         <groups>
             <run>
                 <include name="regression"/>
@@ -9,5 +9,8 @@
         <packages>
             <package name="com.splice.example.tests.*"/>
         </packages>
+        <listeners>
+            <listener class-name="io.qameta.allure.testng.AllureTestNg"></listener>
+        </listeners>
     </test>
 </suite>

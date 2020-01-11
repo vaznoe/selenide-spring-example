@@ -2,6 +2,7 @@ package com.splice.example.config;
 
 import com.splice.example.pages.CommunityPage;
 import com.splice.example.pages.HomePage;
+import com.splice.example.pages.PluginsPage;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -20,5 +21,10 @@ public class PageObjectConfig {
     @Bean
     public CommunityPage communityPage() {
         return new CommunityPage();
+    }
+
+    @Bean
+    public PluginsPage pluginsPage() {
+        return new PluginsPage();
     }
 }

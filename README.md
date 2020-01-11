@@ -12,7 +12,7 @@ cd selenide-spring-example/
 ```
 From the project directory run test:
 ```
-./mvnw clean site
+./mvnw clean test site
 ```
 Generated and open the report:
 ```

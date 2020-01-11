@@ -25,6 +25,7 @@
         <selenide.version>5.6.0</selenide.version>
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
         <maven.surefire.plugin.version>2.22.1</maven.surefire.plugin.version>
+        <allure-selenide.version>2.13.1</allure-selenide.version>
     </properties>
 
     <dependencies>
@@ -75,6 +76,11 @@
             <artifactId>allure-java-commons</artifactId>
             <version>${allure.version}</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-selenide</artifactId>
+            <version>${allure-selenide.version}</version>
         </dependency>
     </dependencies>
 
